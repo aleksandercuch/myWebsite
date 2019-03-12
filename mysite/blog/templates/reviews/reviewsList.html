@@ -1,0 +1,38 @@
+{% load static %}
+<html>
+    <head>
+        <title>My blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+
+        <div class="content container">
+            <h1><a href="/">My blog</a></h1>
+        </div>
+
+        <div class="topnav">
+             <a href="../">Główna</a>
+             <a href="../">Teksty</a>
+             <a href="/">Recenzje</a>
+             <a href="../aboutMe">O mnie</a>
+             <a href="../login">Logowanie</a>
+         </div>
+
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                    {% for review in reviews %}
+                        <div class="post">
+                            <h1><a href="">{{review.book}}, {{review.writer}}</a></h1>
+                            <div class="date">
+                                <p>published: {{ review.published_date }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -13,22 +13,21 @@
         </div>
 
         <div class="topnav">
-             <a href="#home">Główna</a>
-             <a href="#Books">Powieści</a>
-             <a href="#Reviews">Recenzje</a>
-             <a href="#about">O mnie</a>
-             <a href="#login">Logowanie</a>
+             <a href="../">Główna</a>
+             <a href="">Teksty</a>
+             <a href="../reviews">Recenzje</a>
+             <a href="../aboutMe">O mnie</a>
+             <a href="../login">Logowanie</a>
          </div>
 
         <div class="content container">
             <div class="row">
                 <div class="col-md-8">
-                    {% for post in posts %}
+                    {% for chapter in chapters %}
                         <div class="post">
-                            <h1><a href="">{{ post.title }}</a></h1>
-                            <p>{{ post.text|linebreaksbr }}</p>
+                            <h1><a href="">{{chapter.book}}, rozdział {{chapter.number}}, {{ chapter.title }} - musi być linkiem do tekstu</a></h1>
                             <div class="date">
-                                <p>published: {{ post.published_date }}</p>
+                                <p>published: {{ chapter.published_date }}</p>
                             </div>
                         </div>
                     {% endfor %}

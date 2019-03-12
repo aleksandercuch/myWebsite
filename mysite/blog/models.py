@@ -17,3 +17,36 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Chapter(models.Model):
+    author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+    book = models.CharField(max_length = 40)
+    title = models.CharField(max_length=200)
+    number = models.IntegerField()
+    text = models.TextField()
+    published_date = models.DateTimeField(
+        blank=True, null=True)
+
+    def publish(self):
+        self.published_date = timezone.now()
+        self.save()
+
+    def __str__(self):
+        return self.title
+
+
+class Review(models.Model):
+    author = models.ForeignKey('auth.User', on_delete=models.CASCADE, blank=True, null=True)
+    book = models.CharField(max_length=40, blank=True, null=True)
+    writer = models.CharField(max_length=40, blank=True, null=True)
+    text = models.TextField()
+    published_date = models.DateTimeField(
+        blank=True, null=True)
+
+    def publish(self):
+        self.published_date = timezone.now()
+        self.save()
+
+    def __str__(self):
+        return self.book
