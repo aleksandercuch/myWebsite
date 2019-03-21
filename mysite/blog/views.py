@@ -12,7 +12,7 @@ from .tokens import account_activation_token
 from django.contrib.auth.models import User
 from django.core.mail import EmailMessage
 from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth import login
+from django.contrib.auth import login, logout
 
 
 def postList(request):
@@ -30,7 +30,17 @@ def aboutMe(request):
 
 
 def loginTemplate(request):
-   return render(request, 'login/loginTemplate.html', {})
+    form = AuthenticationForm()
+    if request.method == 'POST':
+        form = AuthenticationForm(data=request.POST)
+        if form.is_valid():
+            user = form.get_user()
+            login(request, user)
+            return redirect('../')
+        else:
+            return render(request, 'login/loginTemplate.html', {'form': form})
+    else:
+        return render(request, 'login/loginTemplate.html', {'form': form})
 
 
 def reviewsList(request):
@@ -80,5 +90,7 @@ def activate(request, uidb64, token):
         return HttpResponse('Activation link is invalid!')
 
 
-
+def logOut(request):
+    logout(request)
+    return redirect('/')
 

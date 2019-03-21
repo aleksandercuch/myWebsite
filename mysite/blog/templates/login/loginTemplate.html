@@ -17,7 +17,11 @@
              <a href="../books">Teksty</a>
              <a href="../reviews/">Recenzje</a>
              <a href="/aboutMe">O mnie</a>
-             <a href="/">Logowanie</a>
+             {% if user.is_authenticated %}
+             <a class="nav-link" href="../logout"><i class="fa fa-sign-out-alt fa-1x"></i>Wyloguj({{ user.username }})</a>
+             {% else %}
+             <a href="">Logowanie</a>
+             {% endif %}
          </div>
 
         <div class="content container">
@@ -25,19 +29,24 @@
                 <div class="col-md-8">
                     <h1>Logowanie</h1>
                 <hr>
+                    {% if user.is_authenticated %}
+
+                    <p> Jesteś już zalogowany.</p>
+
+                    {% else %}
 
                 <form class="site-from" action="" method="post">
                     {% csrf_token %}
-                    <p>{{ form.errors }}</p>
                     <p>Username:</p>
                     <p>{{ form.username }}</p>
 
                     <p>Password:</p>
                     <p>{{ form.password }}</p>
-
+                    <p>{{ form.errors }}</p>
                     <input type="submit" value="Signup" name="SignUpForm">
                     </form>
                     Jeśli nie posiadasz jeszcze konta, <a href="/signup">Zarejestruj się</a>
+                    {% endif %}
                 </div>
             </div>
         </div>

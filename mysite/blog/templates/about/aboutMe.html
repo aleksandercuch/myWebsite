@@ -17,7 +17,11 @@
              <a href="../books">Teksty</a>
              <a href="../reviews/">Recenzje</a>
              <a href="/">O mnie</a>
+             {% if user.is_authenticated %}
+             <a class="nav-link" href="/logout"><i class="fa fa-sign-out-alt fa-1x"></i>Wyloguj({{ user.username }})</a>
+             {% else %}
              <a href="../login">Logowanie</a>
+             {% endif %}
          </div>
 
         <div class="content container">
