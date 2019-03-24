@@ -13,7 +13,7 @@ from django.contrib.auth.models import User
 from django.core.mail import EmailMessage
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout
-
+from .forms import CommentForm
 
 def postList(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
@@ -93,4 +93,20 @@ def activate(request, uidb64, token):
 def logOut(request):
     logout(request)
     return redirect('/')
+
+
+def showChapterDetails(request, id_of_chapter):
+    chapter = Chapter.objects.get(id=id_of_chapter)
+    form = CommentForm()
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            form = form.save(commit=False)
+            form.author = request.user
+            form.save()
+            chapter.comments.add(form)
+            chapter.save()
+            form = CommentForm()
+
+    return render(request, 'chapterDetails.html', {'chapter': chapter, 'form': form})
 

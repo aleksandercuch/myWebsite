@@ -24,18 +24,14 @@
              {% endif %}
          </div>
 
-        <div class="content container">
-            <div class="row">
-                <div class="col-md-8">
-                    {% for chapter in chapters %}
-                        <div class="post">
-                            <h1><a href='../{{chapter.id}}/'>{{chapter.book}}, rozdział {{chapter.number}}, {{ chapter.title }} - musi być linkiem do tekstu</a></h1>
-                            <div class="date">
-                                <p>published: {{ chapter.published_date }}</p>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
+         <div class="content container">
+             <div class="row">
+                 <div class="col-md-8">
+
+                  <h2>{{chapter.book}}, rozdział {{chapter.number}}, {{ chapter.title }}</h2>
+                     <p>{{ chapter.text }}</p>
+
+                 </div>
             </div>
         </div>
     </body>

@@ -2,9 +2,17 @@ from django.db import models
 from django.utils import timezone
 
 
+
+class Comment(models.Model):
+    author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+    text = models.TextField()
+    created_date = models.DateTimeField(default=timezone.now)
+
+
 class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
+    comments = models.ManyToManyField(Comment, blank=True)
     text = models.TextField()
     created_date = models.DateTimeField(
             default=timezone.now)
@@ -23,6 +31,7 @@ class Chapter(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     book = models.CharField(max_length = 40)
     title = models.CharField(max_length=200)
+    comments = models.ManyToManyField(Comment, blank=True)
     number = models.IntegerField()
     text = models.TextField()
     published_date = models.DateTimeField(
@@ -39,6 +48,7 @@ class Chapter(models.Model):
 class Review(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE, blank=True, null=True)
     book = models.CharField(max_length=40, blank=True, null=True)
+    comments = models.ManyToManyField(Comment, blank=True)
     writer = models.CharField(max_length=40, blank=True, null=True)
     text = models.TextField()
     published_date = models.DateTimeField(
@@ -50,3 +60,6 @@ class Review(models.Model):
 
     def __str__(self):
         return self.book
+
+
+

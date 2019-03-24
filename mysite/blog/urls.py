@@ -9,6 +9,7 @@ urlpatterns = [
     path('login/', views.loginTemplate, name='loginTemplate'),
     path('logout/', views.logOut, name='logoutTemplate'),
     path('reviews/', views.reviewsList, name='reviewsList'),
+    path('<int:id_of_chapter>/', views.showChapterDetails, name='chapterDetails'),
     url(r'^signup/$', views.signup, name='signup'),
     url(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
         views.activate, name='activate'),
