@@ -29,7 +29,7 @@
                 <div class="col-md-8">
                     {% for chapter in chapters %}
                         <div class="post">
-                            <h1><a href='../{{chapter.id}}/'>{{chapter.book}}, rozdział {{chapter.number}}, {{ chapter.title }} - musi być linkiem do tekstu</a></h1>
+                            <h1><a href='{{chapter.id}}/'>{{chapter.book}}, rozdział {{chapter.number}}, {{ chapter.title }} - musi być linkiem do tekstu</a></h1>
                             <div class="date">
                                 <p>published: {{ chapter.published_date }}</p>
                             </div>

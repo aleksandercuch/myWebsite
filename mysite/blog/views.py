@@ -108,5 +108,36 @@ def showChapterDetails(request, id_of_chapter):
             chapter.save()
             form = CommentForm()
 
-    return render(request, 'chapterDetails.html', {'chapter': chapter, 'form': form})
+    return render(request, 'books/chapterDetails.html', {'chapter': chapter, 'form': form})
 
+
+def showPostDetails(request, id_of_post):
+    post = Post.objects.get(id=id_of_post)
+    form = CommentForm()
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            form = form.save(commit=False)
+            form.author = request.user
+            form.save()
+            post.comments.add(form)
+            post.save()
+            form = CommentForm()
+
+    return render(request, 'blog/postDetails.html', {'post': post, 'form': form})
+
+
+def showReviewDetails(request, id_of_review):
+    review = Review.objects.get(id=id_of_review)
+    form = CommentForm()
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            form = form.save(commit=False)
+            form.author = request.user
+            form.save()
+            review.comments.add(form)
+            review.save()
+            form = CommentForm()
+
+    return render(request, 'reviews/reviewsDetails.html', {'review': review, 'form': form})

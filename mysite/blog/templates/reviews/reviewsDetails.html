@@ -1,0 +1,62 @@
+{% load static %}
+<html>
+    <head>
+        <title>My blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+
+        <div class="content container">
+            <h1><a href="/">My blog</a></h1>
+        </div>
+
+        <div class="topnav">
+             <a href="../../">Główna</a>
+             <a href="../../books">Teksty</a>
+             <a href="../">Recenzje</a>
+             <a href="../../aboutMe">O mnie</a>
+             {% if user.is_authenticated %}
+             <a class="nav-link" href="../../logout"><i class="fa fa-sign-out-alt fa-1x"></i>Wyloguj({{ user.username }})</a>
+             {% else %}
+             <a href="../../login">Logowanie</a>
+             {% endif %}
+         </div>
+
+        <div class="content container">
+             <div class="row">
+                 <div class="col-md-8">
+                     <p>Recenzja:</p>
+                     <h1>{{ review.book }}</h1>
+                     <h2>{{ review.writer }}</h2>
+                     <p>{{ review.text|linebreaksbr }}</p>
+                     <div class="date">
+                         <p>published: {{ review.published_date }}</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content container">
+            <h2>Comments: </h2>
+            {% for comment in review.comments.all %}
+
+                <p>Author: {{ comment.author }}</p>
+                <p>{{ comment.text }}</p>
+                <p>published: {{ comment.created_date }}</p>
+
+            {% endfor %}
+        </div>
+        {% if user.is_authenticated %}
+        <div class="col-12">
+            <h3>Comment now</h3>
+            <form class="site-from" action="" method="post">
+                {% csrf_token %}
+                <p>{{ form.text }}</p>
+                <input type="submit" value="Comment" name="CommentContent">
+                </form>
+        </div>
+            {% endif %}
+    </body>
+</html>

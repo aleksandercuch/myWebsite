@@ -29,7 +29,7 @@
                 <div class="col-md-8">
                     {% for review in reviews %}
                         <div class="post">
-                            <h1><a href="">{{review.book}}, {{review.writer}}</a></h1>
+                            <h1><a href="{{review.id}}/">{{review.book}}, {{review.writer}}</a></h1>
                             <div class="date">
                                 <p>published: {{ review.published_date }}</p>
                             </div>
