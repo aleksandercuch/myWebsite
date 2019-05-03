@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from djrichtextfield.models import RichTextField
 
 
 
@@ -13,7 +14,7 @@ class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     comments = models.ManyToManyField(Comment, blank=True)
-    text = models.TextField()
+    text = RichTextField()
     created_date = models.DateTimeField(
             default=timezone.now)
     published_date = models.DateTimeField(
