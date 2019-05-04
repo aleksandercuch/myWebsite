@@ -56,34 +56,52 @@
 
          <div class="content container">
              <div class="row">
-                 <div class="col-md-8">
-
-                  <h2>{{chapter.book}}, rozdział {{chapter.number}}, {{ chapter.title }}</h2>
-                     <p>{{ chapter.text }}</p>
-
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-8">
+                     <div class="textDetails">
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h2 class="textTitle">{{chapter.book}}</h2>
+                                     <h3 class="textTitle">Rozdział {{chapter.number}}, {{ chapter.title }}</h3>
+                              </div>
+                          </div>
+                         <p>{{ chapter.text }}</p>
+                     </div>
                  </div>
             </div>
         </div>
 
-        <div class="content container">
-         <h2>Comments: </h2>
-            {% for comment in chapter.comments.all %}
 
-                <p>Author: {{ comment.author }}</p>
-                <p>{{ comment.text }}</p>
-                <p>published: {{ comment.created_date }}</p>
+         <div class="content container">
+             <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-8">
+                     <div class="commentsSection">
+                         <h3>Komentarze: </h3>
+                         {% for comment in chapter.comments.all %}
+                         <div class="comment">
+                             <p>{{ comment.author }}: {{ comment.text }}</p>
+                             <div class="date">
+                                 <p>{{ comment.created_date }}</p>
+                             </div>
+                             <hr>
+                         </div>
+                         {% endfor %}
 
-            {% endfor %}
-            </div>
-            {% if user.is_authenticated %}
-                <div class="col-12">
-                    <h3>Comment now</h3>
-                    <form class="site-from" action="" method="post">
-                        {% csrf_token %}
-                        <p>{{ form.text }}</p>
-                        <input type="submit" value="Comment" name="CommentContent">
-                    </form>
-                </div>
-            {% endif %}
+                            {% if user.is_authenticated %}
+
+                                    <h4>Skomentuj</h4>
+                                    <form class="site-from" action="" method="post">
+                                        {% csrf_token %}
+                                        <p>{{ form.text }}</p>
+                                        <input type="submit" value="Publikuj" name="CommentContent">
+                                    </form>
+                             {% endif %}
+                     </div>
+                 </div>
+                <div class="col-sm-2"></div>
+             </div>
+         </div>
+
     </body>
 </html>

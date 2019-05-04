@@ -80,31 +80,36 @@
                             Najbardziej cenię sobie szczerą, zasłużoną krytykę ;)</div>
                         </div>
                     </div>
-                </div>
+                 </div>
              </div>
          </div>
          <div class="content container">
-             <div class="commentsSection">
-                 <h3>Komentarze: </h3>
-                 {% for comment in post.comments.all %}
-                 <div class="comment">
-                     <p>{{ comment.author }}: {{ comment.text }}</p>
-                     <div class="date">
-                         <p>{{ comment.created_date }}</p>
+             <div class="row">
+                 <div class="col-sm-8">
+                     <div class="commentsSection">
+                         <h3>Komentarze: </h3>
+                         {% for comment in post.comments.all %}
+                         <div class="comment">
+                             <p>{{ comment.author }}: {{ comment.text }}</p>
+                             <div class="date">
+                                 <p>{{ comment.created_date }}</p>
+                             </div>
+                             <hr>
+                         </div>
+                         {% endfor %}
+
+                            {% if user.is_authenticated %}
+
+                                    <h4>Skomentuj</h4>
+                                    <form class="site-from" action="" method="post">
+                                        {% csrf_token %}
+                                        <p>{{ form.text }}</p>
+                                        <input type="submit" value="Publikuj" name="CommentContent">
+                                    </form>
+                             {% endif %}
                      </div>
-                     <hr>
                  </div>
-                 {% endfor %}
-
-                    {% if user.is_authenticated %}
-
-                            <h4>Skomentuj</h4>
-                            <form class="site-from" action="" method="post">
-                                {% csrf_token %}
-                                <p>{{ form.text }}</p>
-                                <input type="submit" value="Publikuj" name="CommentContent">
-                            </form>
-                     {% endif %}
+                <div class="col-sm-4"></div>
              </div>
          </div>
 

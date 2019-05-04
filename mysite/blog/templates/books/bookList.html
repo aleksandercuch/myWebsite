@@ -56,16 +56,34 @@
 
         <div class="content container">
             <div class="row">
-                <div class="col-md-8">
-                    {% for chapter in chapters %}
-                        <div class="post">
-                            <h1><a href='{{chapter.id}}/'>{{chapter.book}}, rozdział {{chapter.number}}, {{ chapter.title }} - musi być linkiem do tekstu</a></h1>
-                            <div class="date">
-                                <p>published: {{ chapter.published_date }}</p>
-                            </div>
-                        </div>
-                    {% endfor %}
+                <div class="col-sm-8">
+                    <div class="post">
+                        <h1>Cykl XYZ</h1>
+                        <h2>Ostatni Zwiastun - księga pierwsza</h2>
+                        <p>opiso pisopisopisopisop isopisopisopisopiso </br>
+                            pisopisopisopisopis opisopisopis opisopisopisopis opisopisopisopis</br>
+                            opis opisop isopisopisopiso pisopis</br>
+                         pisopiso pisopisop isopisopis opisopipi sopipisopipisopi</br>
+                         pisopiso piso pisopisopisop isopisopiv pisop isopiso pisopisopiso pisopisopi</br>
+                         pisop isop isopisopisopis opisopisopi pisopiso pisopisopisopiso pisopisopi</br></p>
+                        {% for chapter in chapters %}
+                        <h3><a href='{{chapter.id}}/'>Rozdział {{chapter.number}}, {{ chapter.title }} - musi być linkiem do tekstu</a></h3>
+
+                        {% endfor %}
+                        <hr>
+                    </div>
                 </div>
+                <div class="col-sm-4">
+                    <div class="aboutPanel">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Krótko o mnie</div>
+                            <div class="panel-body">Cześć, jestem Aleksander.</br>
+                            Studiuję informatykę, a w wolnym czasie oddaję się pasji, jaką jest pisanie.</br>
+                            Tworzę opowiadania i powieść w klimatach fantasy, więc jeżeli lubisz ten gatunek, to gorąco zapraszam do zapoznania się z moją twórczością.</br>
+                            Najbardziej cenię sobie szczerą, zasłużoną krytykę ;)</div>
+                        </div>
+                    </div>
+                 </div>
             </div>
         </div>
     </body>
