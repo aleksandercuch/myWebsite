@@ -16,7 +16,7 @@ from django.contrib.auth import login, logout
 from .forms import CommentForm
 
 def postList(request):
-    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
     return render(request, 'blog/postList.html', {'posts': posts})
 
 

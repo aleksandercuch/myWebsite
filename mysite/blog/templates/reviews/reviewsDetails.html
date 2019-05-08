@@ -55,30 +55,17 @@
 
         <div class="content container">
              <div class="row">
-                <div class="col-sm-2"></div>
-                 <div class="col-sm-8">
-                     <div class="textDetails">
-                            <div class="panel panel-default">
-                              <div class="panel-heading">
-                                  <h2 class="textTitle">Recenzja {{review.book}}</h2>
-                                     <h3 class="textTitle">{{ review.writer }}</h3>
-                              </div>
-                          </div>
-                         <p>{{ review.text|linebreaksbr }}</p>
-                     </div>
-                 </div>
-            </div>
-        </div>
-
-
-                     <
-        <div class="content container">
-             <div class="row">
                  <div class="col-sm-2"></div>
                  <div class="col-sm-8">
+                     <div class="textDetails">
+                         <h2 class="textTitle">Recenzja {{review.book}}</h2>
+                         <h3 class="textTitle">{{ review.writer }}</h3>
+                         <hr>
+                         <p>{{ review.text|linebreaksbr }}</p>
+                     </div>
                      <div class="commentsSection">
                          <h3>Komentarze: </h3>
-                         {% for comment in review.comments.all %}
+                         {% for comment in review.comments.all reversed%}
                          <div class="comment">
                              <p>{{ comment.author }}: {{ comment.text }}</p>
                              <div class="date">
@@ -98,9 +85,9 @@
                                     </form>
                              {% endif %}
                      </div>
+
                  </div>
-                <div class="col-sm-2"></div>
-             </div>
-         </div>
+            </div>
+        </div>
     </body>
 </html>

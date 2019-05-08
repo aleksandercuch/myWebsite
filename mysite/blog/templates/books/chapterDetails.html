@@ -54,17 +54,14 @@
             </div>
         </nav>
 
-         <div class="content container">
+        <div class="content container">
              <div class="row">
                  <div class="col-sm-2"></div>
                  <div class="col-sm-8">
                      <div class="textDetails">
-                          <div class="panel panel-default">
-                              <div class="panel-heading">
-                                  <h2 class="textTitle">{{chapter.book}}</h2>
-                                     <h3 class="textTitle">Rozdział {{chapter.number}}, {{ chapter.title }}</h3>
-                              </div>
-                          </div>
+                         <h2 class="textTitle">{{chapter.book}}</h2>
+                         <h3 class="textTitle">Rozdział {{chapter.number}}, {{ chapter.title }}</h3>
+                         <hr>
                          <p>{{ chapter.text }}</p>
                      </div>
                  </div>
@@ -78,7 +75,7 @@
                  <div class="col-sm-8">
                      <div class="commentsSection">
                          <h3>Komentarze: </h3>
-                         {% for comment in chapter.comments.all %}
+                         {% for comment in chapter.comments.all reversed%}
                          <div class="comment">
                              <p>{{ comment.author }}: {{ comment.text }}</p>
                              <div class="date">
@@ -88,15 +85,15 @@
                          </div>
                          {% endfor %}
 
-                            {% if user.is_authenticated %}
+                         {% if user.is_authenticated %}
 
-                                    <h4>Skomentuj</h4>
-                                    <form class="site-from" action="" method="post">
-                                        {% csrf_token %}
-                                        <p>{{ form.text }}</p>
-                                        <input type="submit" value="Publikuj" name="CommentContent">
-                                    </form>
-                             {% endif %}
+                         <h4>Skomentuj</h4>
+                         <form class="site-from" action="" method="post">
+                             {% csrf_token %}
+                             <p>{{ form.text }}</p>
+                             <input type="submit" value="Publikuj" name="CommentContent">
+                         </form>
+                         {% endif %}
                      </div>
                  </div>
                 <div class="col-sm-2"></div>
