@@ -94,9 +94,6 @@ body {
 
 }
 
-.carousel-inner {
-    border: 2px solid gray;
-}
 
 #carouselExampleControls {
     margin-top: 10px;
@@ -158,4 +155,12 @@ img {
      border: 1px solid gray;
 }
 
+img {
+    border: 2px solid gray;
+}
+
+#myImage {
+    margin-top: 15px;
+    margin-left: 15px;
+}
 
