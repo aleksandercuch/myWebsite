@@ -15,9 +15,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Aleksander Cuch</a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="nav navbar-nav navbar-center">
                     <li class="nav-item">
                         <a class="nav-link" href="">STRONA GŁÓWNA</a>
@@ -35,6 +36,7 @@
                         <a class="nav-link" href="/contact">KONTAKT</a>
                     </li>
                 </ul>
+             </div>
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
                     <li class="nav-item">
@@ -101,8 +103,9 @@
                         <h5>Krótko o mnie</h5>
                            Cześć, jestem Aleksander.</br>
                             Studiuję informatykę, a w wolnym czasie oddaję się pasji, jaką jest pisanie.</br>
-                            Tworzę opowiadania i powieść w klimatach fantasy, więc jeżeli lubisz ten gatunek, to gorąco zapraszam do zapoznania się z moją twórczością.</br>
-                            Najbardziej cenię sobie szczerą, zasłużoną krytykę ;)
+                            Tworzę opowiadania i powieść w klimatach fantasy, więc jeżeli lubisz ten gatunek, to gorąco zapraszam do zapoznania się z moją twórczością.
+                            Najbardziej cenię sobie szczerą, zasłużoną krytykę ;)<br>
+                            Jeśli chcesz dowiedzieć się więcej o mnie i o forum, zapraszam <a href="/aboutMe">tutaj</a>.
 
                     </div>
                 </div>

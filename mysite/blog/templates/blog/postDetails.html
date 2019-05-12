@@ -15,9 +15,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Aleksander Cuch</a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            </div>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="nav navbar-nav navbar-center">
                     <li class="nav-item">
                         <a class="nav-link" href="../">STRONA GŁÓWNA</a>
@@ -35,6 +36,7 @@
                         <a class="nav-link" href="../contact">KONTAKT</a>
                     </li>
                 </ul>
+             </div>
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
                     <li class="nav-item">
@@ -106,6 +108,8 @@
                                         <p>{{ form.text }}</p>
                                         <input type="submit" value="Publikuj" name="CommentContent">
                                     </form>
+                             {% else %}
+                                <h4 class="textTitle">Zaloguj się, aby skomentować.</h4>
                              {% endif %}
                      </div>
                  </div>
