@@ -14,9 +14,19 @@ from django.core.mail import EmailMessage
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout
 from .forms import CommentForm
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def postList(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
+    page = request.GET.get('page', 1)
+    paginator = Paginator(posts, 10)
+    try:
+        posts = paginator.page(page)
+    except PageNotAnInteger:
+        posts = paginator.page(1)
+    except EmptyPage:
+        posts = paginator.page(paginator.num_pages)
+
     return render(request, 'blog/postList.html', {'posts': posts})
 
 
@@ -27,6 +37,7 @@ def bookList(request):
 
 def aboutMe(request):
    return render(request, 'about/aboutMe.html', {})
+
 
 
 def loginTemplate(request):

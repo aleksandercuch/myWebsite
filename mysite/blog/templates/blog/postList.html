@@ -32,12 +32,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/reviews">RECENZJE</a>
                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">KONTAKT</a>
-                    </li>
                 </ul>
              </div>
                 <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/signup"><i class="fab fa-instagram"></i></a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><i class="fab fa-facebook-f"></i> </a>
+                    </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
                         <a class="nav-link" href="/logout">Wyloguj ({{ user.username }})</a>
@@ -97,7 +101,29 @@
                     </div>
 
                     {% endfor %}
+                    {% if posts.has_other_pages %}
+                      <ul class="pagination">
+                        {% if posts.has_previous %}
+                          <li><a href="?page={{ users.previous_page_number }}">&laquo;</a></li>
+                        {% else %}
+                          <li class="disabled"><span>&laquo;</span></li>
+                        {% endif %}
+                        {% for i in posts.paginator.page_range %}
+                          {% if posts.number == i %}
+                            <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                          {% else %}
+                            <li><a href="?page={{ i }}">{{ i }}</a></li>
+                          {% endif %}
+                        {% endfor %}
+                        {% if posts.has_next %}
+                          <li><a href="?page={{ users.next_page_number }}">&raquo;</a></li>
+                        {% else %}
+                          <li class="disabled"><span>&raquo;</span></li>
+                        {% endif %}
+                      </ul>
+                    {% endif %}
                 </div>
+
                 <div class="col-sm-4">
                     <div class="aboutPanel">
                         <h5>Krótko o mnie</h5>
@@ -106,7 +132,6 @@
                             Tworzę opowiadania i powieść w klimatach fantasy, więc jeżeli lubisz ten gatunek, to gorąco zapraszam do zapoznania się z moją twórczością.
                             Najbardziej cenię sobie szczerą, zasłużoną krytykę ;)<br>
                             Jeśli chcesz dowiedzieć się więcej o mnie i o forum, zapraszam <a href="/aboutMe">tutaj</a>.
-
                     </div>
                 </div>
             </div>
