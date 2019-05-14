@@ -60,7 +60,7 @@
                          <h2 class="textTitle">Recenzja {{review.book}}</h2>
                          <h3 class="textTitle">{{ review.writer }}</h3>
                          <hr>
-                         <p>{{ review.text|linebreaksbr }}</p>
+                         <p>{{ review.text|safe }}</p>
                      </div>
                      <div class="commentsSection">
                          <h3>Komentarze: </h3>

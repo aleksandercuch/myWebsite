@@ -1,12 +1,13 @@
 from django.db import models
 from django.utils import timezone
 from djrichtextfield.models import RichTextField
+from froala_editor.fields import FroalaField
 
 
 
 class Comment(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
-    text = models.TextField()
+    text = FroalaField()
     created_date = models.DateTimeField(default=timezone.now)
 
 
@@ -14,7 +15,7 @@ class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     comments = models.ManyToManyField(Comment, blank=True)
-    text = RichTextField()
+    text = FroalaField()
     created_date = models.DateTimeField(
             default=timezone.now)
     published_date = models.DateTimeField(
@@ -34,7 +35,7 @@ class Chapter(models.Model):
     title = models.CharField(max_length=200)
     comments = models.ManyToManyField(Comment, blank=True)
     number = models.IntegerField()
-    text = models.TextField()
+    text = FroalaField()
     published_date = models.DateTimeField(
         blank=True, null=True)
 
@@ -51,7 +52,7 @@ class Review(models.Model):
     book = models.CharField(max_length=40, blank=True, null=True)
     comments = models.ManyToManyField(Comment, blank=True)
     writer = models.CharField(max_length=40, blank=True, null=True)
-    text = models.TextField()
+    text = FroalaField()
     published_date = models.DateTimeField(
         blank=True, null=True)
 

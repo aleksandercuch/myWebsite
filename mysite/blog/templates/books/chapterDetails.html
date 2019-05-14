@@ -61,7 +61,7 @@
                          <h2 class="textTitle">{{chapter.book}}</h2>
                          <h3 class="textTitle">Rozdział {{chapter.number}}, {{ chapter.title }}</h3>
                          <hr>
-                         <p>{{ chapter.text }}</p>
+                         <p>{{ chapter.text|safe }}</p>
                      </div>
                  </div>
             </div>

@@ -1,7 +1,7 @@
 {% load static %}
 <html>
    <head>
-        <title>Logowanie</title>
+        <title>Rejestracja</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -55,8 +55,38 @@
 
         <div class="content container">
             <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
+                <div class="col-sm-8 leftSide">
+                    <h1 class="textTitle">Regulamin</h1>
+                    <hr>
+
+                    <p><b>Przede wszystkim kultura.</b> Publikuję na tym blogu własne treści i&nbsp;poglądy. Jestem świadom,
+                    że&nbsp;w wielu tematach wasza wiedza może przekraczać moją, ale&nbsp;to jeszcze nie upoważnia żadnego z nas
+                    do hamskiego zachowania względem siebie -&nbsp;swoją wiedzą możecie się podzielić w postaci komentarza.
+                    Wszyscy powinniśmy coś sobą reprezentować, dlatego&nbsp;będą kasowane komentarze,
+                    które&nbsp;:</p>
+
+                    <p>1. Są obraźliwe wobec mnie lub&nbsp;innych użytkowników. Nie znaczy to, że&nbsp;odbieram ci prawo głosu.
+                        Napisz to, co&nbsp;masz na myśli, ale&nbsp;kulturalniej.</p>
+
+                    <p>2. Są zupełnie niezwiązane z&nbsp;tematem wpisu.</p>
+
+                    <p>3. Są spamem. Za taki uznaję podawanie w komentarzach linków do swoich stron, innych&nbsp;blogów
+                        lub powielanie treści z&nbsp;pomocą metody kopiuj-wklej.</p>
+
+                   <p> W przypadku nieprzestrzegania powyższych punktów, użytkownik&nbsp;otrzyma ostrzeżenie mailowe. Jeżeli
+                    nie poprawi swojego zachowania, zostanie&nbsp;odesłany z bloga.</p>
+
+                    <p>Wszystkie utwory na blogu należą do mnie, a&nbsp;to&nbsp;oznacza, że&nbsp;podlegają ochronie prawnej.
+                    W związku z powyższym nie wyrażam zgody na kopiowanie,
+                    drukowanie&nbsp;oraz powielanie treści zamieszczanych na blogu, jako&nbsp;własne, bez&nbsp;mojej pisemnej zgody.</p>
+
+                    <p>Zastrzegam sobie również prawo do edycji tego regulaminu. O&nbsp;takim zabiegu zostaniecie powiadomieni w&nbsp;postaci
+                    posta na blogu.</p>
+
+
+
+                </div>
+                <div class="col-sm-4">
                     <div class="post">
                       {% block content %}
                       <h1 class="textTitle">Rejestracja</h1>

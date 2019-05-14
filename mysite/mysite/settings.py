@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'djrichtextfield'
+    'djrichtextfield',
+    'froala_editor',
 ]
 
 MIDDLEWARE = [
@@ -120,6 +121,11 @@ USE_L10N = True
 
 USE_TZ = True
 
+FRAOLA_EDITOR_THIRD_PARTY = ('image_aviary', 'spell_checker')
+FROALA_EDITOR_PLUGINS = ('align', 'char_counter', 'code_beautifier' ,'code_view', 'colors', 'draggable', 'emoticons',
+        'entities', 'file', 'font_family', 'font_size', 'fullscreen', 'image_manager', 'image', 'inline_style',
+        'line_breaker', 'link', 'html','lists', 'paragraph_format', 'paragraph_style', 'quick_insert', 'quote', 'save', 'table',
+        'url', 'video')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
