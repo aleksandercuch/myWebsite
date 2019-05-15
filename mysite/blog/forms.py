@@ -15,7 +15,6 @@ class SignupForm(UserCreationForm):
 
 
 class CommentForm(forms.ModelForm):
-    text = forms.CharField(widget=FroalaEditor)
     class Meta:
         model = Comment
         fields = ['text']

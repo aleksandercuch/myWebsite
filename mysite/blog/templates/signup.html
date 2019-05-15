@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 
     </head>
-    <body background="../static/images/background.jpg">
+   <body background="../static/images/background.jpg">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Aleksander Cuch</a>
@@ -19,7 +19,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-             <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="nav navbar-nav navbar-center">
                     <li class="nav-item">
                         <a class="nav-link" href="../">STRONA GŁÓWNA</a>
@@ -34,7 +34,7 @@
                         <a class="nav-link" href="../reviews">RECENZJE</a>
                     </li>
                 </ul>
-             </div>
+            </div>
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
                     <li class="nav-item">
@@ -88,31 +88,32 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="post">
-                      {% block content %}
-                      <h1 class="textTitle">Rejestracja</h1>
+                        {% block content %}
+                        <h1 class="textTitle">Rejestracja</h1>
                         <hr>
                         <form method="post">
-                          {% csrf_token %}
+                            {% csrf_token %}
                             {% for field in form %}
                             <p>
-                              {{ field.label_tag }}<br>
-                              {{ field }}
-                              {% if field.help_text %}
+                                {{ field.label_tag }}<br>
+                                {{ field }}
+                                {% if field.help_text %}
                                 <small style="display: none">{{ field.help_text }}</small>
-                              {% endif %}
-                              {% for error in field.errors %}
+                                {% endif %}
+                                {% for error in field.errors %}
                                 <p style="color: red">{{ error }}</p>
-                              {% endfor %}
+                            {% endfor %}
                             </p>
                             {% endfor %}
 
-                          <button type="submit">Zarejestruj się</button>
+                            <button type="submit">Zarejestruj się</button>
                         </form>
                         {% endblock %}
                     </div>
                 </div>
             </div>
         </div>
+    <hr>
     </body>
 </html>
 

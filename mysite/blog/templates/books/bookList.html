@@ -67,8 +67,9 @@
                          pisopiso piso pisopisopisop isopisopiv pisop isopiso pisopisopiso pisopisopi</br>
                          pisop isop isopisopisopis opisopisopi pisopiso pisopisopisopiso pisopisopi</br></p>
                         {% for chapter in chapters %}
-                        <h3><a href='{{chapter.id}}/'>Rozdział {{chapter.number}}, {{ chapter.title }} - musi być linkiem do tekstu</a></h3>
-
+                        <div class="titleList">
+                            <h3><a href='{{chapter.id}}/'>Rozdział {{chapter.number}}, {{ chapter.title }} - musi być linkiem do tekstu</a></h3>
+                        </div>
                         {% endfor %}
                         <hr>
                     </div>

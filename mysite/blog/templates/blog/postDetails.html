@@ -89,7 +89,8 @@
                          <h3>Komentarze: </h3>
                          {% for comment in post.comments.all reversed%}
                          <div class="comment">
-                             <p>{{ comment.author }}: {{ comment.text }}</p>
+                             <p class="username">{{ comment.author }}:</p>
+                             <p>{{ comment.text|linebreaksbr  }}</p>
                              <div class="date">
                                  <p>{{ comment.created_date }}</p>
                              </div>
@@ -113,6 +114,6 @@
                 <div class="col-sm-4"></div>
              </div>
          </div>
-
+    <hr>
     </body>
 </html>
