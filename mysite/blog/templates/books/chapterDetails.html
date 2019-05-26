@@ -14,12 +14,21 @@
    <body background="../../static/images/background.jpg">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Aleksander Cuch</a>
-
+           <a class="navbar-brand" href="../../">www.harbinger.pl</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                 <ul class="nav navbar-nav navbar-right">
+                     <li class="nav-item">
+                        <a class="nav-link" href="/signup"><i class="fab fa-instagram"></i></a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><i class="fab fa-facebook-f"></i> </a>
+                    </li>
+
+                 </ul>
                 <ul class="nav navbar-nav navbar-center">
                     <li class="nav-item">
                         <a class="nav-link" href="../../">STRONA GŁÓWNA</a>
@@ -76,7 +85,8 @@
                          <h3>Komentarze: </h3>
                          {% for comment in chapter.comments.all reversed%}
                          <div class="comment">
-                             <p>{{ comment.author }}: {{ comment.text }}</p>
+                             <p class="username"><span class="fas fa-user"></span> {{ comment.author }}: </p>
+                             <p>{{ comment.text|linebreaksbr  }}</p>
                              <div class="date">
                                  <p>{{ comment.created_date }}</p>
                              </div>

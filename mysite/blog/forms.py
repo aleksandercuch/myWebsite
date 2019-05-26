@@ -7,6 +7,7 @@ from froala_editor.widgets import FroalaEditor
 
 class SignupForm(UserCreationForm):
     email = forms.EmailField(max_length=200, help_text='Required')
+    regulamin = forms.BooleanField(required=True)
 
     class Meta:
         model = User
@@ -18,3 +19,6 @@ class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ['text']
+
+
+

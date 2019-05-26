@@ -30,10 +30,9 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'localhost']
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'cuch.aleksander@gmail.com'
-EMAIL_HOST_PASSWORD = 'dwightswain'
+EMAIL_HOST_PASSWORD = 'syubkmlkznqgmdcl'
 EMAIL_PORT = 587
 
-# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',

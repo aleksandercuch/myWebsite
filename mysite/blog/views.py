@@ -1,8 +1,12 @@
 from django.utils import timezone
 from .models import Post, Chapter, Review
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth import login, logout
+from .forms import CommentForm
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate
+from django.contrib.auth import login, authenticate
 from .forms import SignupForm
 from django.contrib.sites.shortcuts import get_current_site
 from django.utils.encoding import force_bytes, force_text
@@ -11,10 +15,6 @@ from django.template.loader import render_to_string
 from .tokens import account_activation_token
 from django.contrib.auth.models import User
 from django.core.mail import EmailMessage
-from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth import login, logout
-from .forms import CommentForm
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def postList(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
@@ -71,7 +71,7 @@ def signup(request):
             message = render_to_string('acc_active_email.html', {
                 'user': user,
                 'domain': current_site.domain,
-                'uid':urlsafe_base64_encode(force_bytes(user.pk)).decode(),
+                'uid':urlsafe_base64_encode(force_bytes(user.pk)).decode,
                 'token':account_activation_token.make_token(user),
             })
             to_email = form.cleaned_data.get('email')
@@ -79,7 +79,7 @@ def signup(request):
                         mail_subject, message, to=[to_email]
             )
             email.send()
-            return HttpResponse('Please confirm your email address to complete the registration')
+            return HttpResponse('Proszę potwierdzić adres e-mail w celu dokończenia rejestracji.')
     else:
         form = SignupForm()
     return render(request, 'signup.html', {'form': form})
@@ -96,9 +96,9 @@ def activate(request, uidb64, token):
         user.save()
         login(request, user)
         # return redirect('home')
-        return HttpResponse('Thank you for your email confirmation. Now you can login your account.')
+        return HttpResponse('Dziękujemy za potwierdzenie rejestracji. Możesz teraz zalogować się na swoje konto!')
     else:
-        return HttpResponse('Activation link is invalid!')
+        return HttpResponse('Link aktywacyjny jest już nieważny!')
 
 
 def logOut(request):

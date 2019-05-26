@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, p, input {
 }
 
 .navbar {
-    margin-bottom: 350px;
+    margin-bottom: 330px;
 }
 
 .nav-link {
@@ -167,7 +167,7 @@ img {
 }
 
 .username {
-    color: blue;
+    color: #00008B;
     font-size: large;
 }
 
