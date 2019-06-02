@@ -66,31 +66,56 @@
                  <div class="col-sm-2"></div>
                  <div class="col-sm-8">
                      <div class="textDetails">
-                         <h2 class="textTitle">Recenzja {{review.book}}</h2>
+                         <h2 class="textTitle">{{review.book}}</h2>
                          <h3 class="textTitle">{{ review.writer }}</h3>
+                         <h5 class="textTitle">Recenzja</h5>
                          <hr>
                          <p>{{ review.text|safe }}</p>
                      </div>
                      <div class="commentsSection">
-                         <h3>Komentarze: </h3>
+                         <hr>
+                         <h3 class="textTitle">Komentarze</h3>
                          {% for comment in review.comments.all reversed%}
-                         <div class="comment">
-                              <p class="username"><span class="fas fa-user"></span> {{ comment.author }}:</p>
-                             <p>{{ comment.text|linebreaksbr  }}</p>
-                             <div class="date">
-                                 <p>{{ comment.created_date }}</p>
-                             </div>
-                             <hr>
-                         </div>
+                            {% if forloop.counter|divisibleby:2 %}
+                                    <div class="comment">
+                                        <hr>
+                                        <p class="username"><span class="fas fa-user"></span> {{ comment.author }}:</p>
+                                        <p>{{ comment.text|linebreaksbr }}</p>
+                                        <div class="date">
+                                            <p>{{ comment.created_date }}</p>
+                                        </div>
+                                        {% if request.user.is_superuser %}
+                                            <button href="/delete/{{ comment.id }}"><a href="/delete/{{ comment.id }}">Delete</a></button>
+                                        {% endif %}
+                                        <hr>
+                                    </div>
+
+                            {% else %}
+                                 <div>
+                                    <p class="username"><span class="fas fa-user"></span> {{ comment.author }}:</p>
+                                     <p>{{ comment.text|linebreaksbr }}</p>
+                                     <div class="date">
+                                         <p>{{ comment.created_date }}</p>
+                                     </div>
+                                     {% if request.user.is_superuser %}
+                                        <button href="/delete/{{ comment.id }}"><a href="/delete/{{ comment.id }}">Delete</a></button>
+                                     {% endif %}
+                                </div>
+                            {% endif %}
                          {% endfor %}
 
                             {% if user.is_authenticated %}
 
-                                    <h4>Skomentuj</h4>
+                                <h4 class="textTitle">Skomentuj</h4>
+
                                     <form class="site-from" action="" method="post">
                                         {% csrf_token %}
-                                        <p>{{ form.text }}</p>
-                                        <input type="submit" value="Publikuj" name="CommentContent">
+                                       <div class="d-flex justify-content-center">
+                                           <p>{{ form.text }}</p>
+                                       </div>
+                                        <div class="d-flex justify-content-center">
+                                            <input type="submit" value="Publikuj" name="CommentContent">
+                                        </div>
                                     </form>
                              {% else %}
                                 <h4 class="textTitle">Zaloguj się, aby skomentować.</h4>

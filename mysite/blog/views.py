@@ -1,5 +1,5 @@
 from django.utils import timezone
-from .models import Post, Chapter, Review
+from .models import Post, Chapter, Review, Comment
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout
 from .forms import CommentForm
@@ -152,3 +152,11 @@ def showReviewDetails(request, id_of_review):
             form = CommentForm()
 
     return render(request, 'reviews/reviewsDetails.html', {'review': review, 'form': form})
+
+
+def delete(request, comment_id):
+    query = Comment.objects.get(pk=comment_id)
+    if User.is_superuser:
+        #if request.method == 'POST':
+        query.delete()
+    return HttpResponse("Deleted!")

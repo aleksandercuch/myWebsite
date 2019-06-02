@@ -66,28 +66,39 @@
             <div class="row">
                 <div class="col-sm-8">
                     <div class="post">
-                        <h1>Recenzje książek:</h1>
+                        <h1 class="textTitle">Recenzje</h1>
                         <hr>
                         <h2>Fantasy</h2>
                         {% for review in reviews %}
-                        <div class="titleList">
-                            <h3><a href="{{review.id}}/">{{review.book}}, {{review.writer}}</a></h3>
+
+                        <div class="review">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <a href="{{review.id}}/"><img src="{{review.url}}"></a>
+                                </div>
+                                <div class="col-sm-8">
+                                    <p>{{ review.text|safe|truncatewords:80 }} <a href="{{review.id}}/">(czytaj dalej)</a></p>
+                                </div>
+                            </div>
+
+
                         </div>
+
                         <hr>
                         {% endfor %}
-
+                        sss
                     </div>
                 </div>
-                <div class="col-sm-4">
-                     <div class="aboutPanel">
+                 <div class="col-sm-4">
+                    <div class="aboutPanel">
                         <h5>Krótko o mnie</h5>
-                           Cześć, jestem Aleksander.</br>
-                            Studiuję informatykę, a w wolnym czasie oddaję się pasji, jaką jest pisanie.</br>
-                            Tworzę opowiadania i powieść w klimatach fantasy, więc jeżeli lubisz ten gatunek, to gorąco zapraszam do zapoznania się z moją twórczością.
-                            Najbardziej cenię sobie szczerą, zasłużoną krytykę ;)<br>
-                            Jeśli chcesz dowiedzieć się więcej o mnie i o forum, zapraszam <a href="/aboutMe">tutaj</a>.
+                        <p>Cześć, jestem Aleksander.</br>
+                            Studiuję informatykę, a&nbsp;w&nbsp;wolnym czasie oddaję się pasji, jaką&nbsp;jest pisanie.</br>
+                            Tworzę opowiadania i&nbsp;powieść w&nbsp;klimatach fantasy, więc&nbsp;jeżeli lubisz ten gatunek, to&nbsp;gorąco zapraszam do zapoznania&nbsp;się z&nbsp;moją twórczością.
+                            Najbardziej cenię sobie szczerą, zasłużoną&nbsp;krytykę&nbsp;;)<br>
+                            Jeśli chcesz dowiedzieć się więcej o&nbsp;mnie i&nbsp;o&nbsp;forum, zapraszam&nbsp;<a href="/aboutMe">tutaj</a>.</p>
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
     </body>

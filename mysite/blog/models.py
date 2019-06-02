@@ -48,11 +48,13 @@ class Chapter(models.Model):
 
 
 class Review(models.Model):
+    url = models.CharField(max_length=40, blank=True, null=True)
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE, blank=True, null=True)
     book = models.CharField(max_length=40, blank=True, null=True)
     comments = models.ManyToManyField(Comment, blank=True)
     writer = models.CharField(max_length=40, blank=True, null=True)
     text = FroalaField()
+    description = FroalaField(default='opis')
     published_date = models.DateTimeField(
         blank=True, null=True)
 
