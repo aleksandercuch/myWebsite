@@ -54,7 +54,6 @@ class Review(models.Model):
     comments = models.ManyToManyField(Comment, blank=True)
     writer = models.CharField(max_length=40, blank=True, null=True)
     text = FroalaField()
-    description = FroalaField(default='opis')
     published_date = models.DateTimeField(
         blank=True, null=True)
 

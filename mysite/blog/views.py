@@ -156,7 +156,7 @@ def showReviewDetails(request, id_of_review):
 
 def delete(request, comment_id):
     query = Comment.objects.get(pk=comment_id)
-    if User.is_superuser:
+    if request.user.is_superuser:
         #if request.method == 'POST':
         query.delete()
     return HttpResponse("Deleted!")
