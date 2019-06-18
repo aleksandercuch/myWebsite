@@ -9,7 +9,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-
     </head>
     <body background="../static/images/background.jpg">
 
@@ -18,17 +17,16 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                 <ul class="nav navbar-nav navbar-right">
-                     <li class="nav-item">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
                         <a class="nav-link" href="/signup"><i class="fab fa-instagram"></i></a>
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href=""><i class="fab fa-facebook-f"></i> </a>
                     </li>
+                </ul>
 
-                 </ul>
                 <ul class="nav navbar-nav navbar-center">
                     <li class="nav-item">
                         <a class="nav-link" href="../">STRONA GŁÓWNA</a>
@@ -43,32 +41,28 @@
                         <a class="nav-link" href="../reviews">RECENZJE</a>
                     </li>
                 </ul>
-
-              </div>
+            </div>
             <ul class="nav navbar-nav navbar-right">
-                    {% if user.is_authenticated %}
+                {% if user.is_authenticated %}
                     <li class="nav-item">
                         <a class="nav-link" href="/logout">Wyloguj ({{ user.username }})</a>
                     </li>
-                    {% else %}
+                {% else %}
                     <li class="nav-item">
                         <a class="nav-link" href="../signup"><span class="fas fa-user"></span> Rejestracja</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../login"><span class="fas fa-sign-in-alt"></span> Logowanie</a>
                     </li>
-                    {% endif %}
+                {% endif %}
                 </ul>
         </nav>
 
         <div class="content container">
             <div class="row">
-
                 <div class="col-sm-8 leftSide">
                     <h1 class="textTitle">Trochę o mnie</h1>
                     <hr>
-
-
                     <p>Na początek wypadałoby się przedstawić. Nazywam się Aleksander, mam dwadzieścia jeden lat i&nbsp;niemal od
                         urodzenia mieszkam w Gdańsku, gdzie&nbsp;już trzeci rok studiuję informatykę. Przeglądaną przez Ciebie stronę
                         napisałem sam, więc&nbsp;mam nadzieję, że&nbsp;w&nbsp;chwili, gdy&nbsp;zobaczyłeś stronę główną, nie&nbsp;pomyślałeś czegoś w stylu
@@ -85,11 +79,9 @@
 
                     <p>Niżej umieściłem dla ciekawskich rozszerzoną wersję O mnie, tymczasem&nbsp;życzę wszystkim ciekawej podróży po mojej stronie
                         i&nbsp;zapraszam do&nbsp;Kontaktu :)</p>
-
                     <hr>
                     <h3>A więc rozsiądź się wygodnie...</h3>
                     <hr>
-
                     <p>Jako dziecko nienawidziłem książek! Poważnie. Jedyne, co&nbsp;mnie interesowało, to&nbsp;zabawa Bioniclami lub granie na komputerze…
                         No dobra, głównie druga z tych rzeczy, co szybko zauważył mój tato (w końcu nie bez przyczyny uczę się na informatyka).
                         Moi rodzice zawsze byli oczytani i&nbsp;przez jakiś czas naprawdę starali się przekonać mnie do książek.
@@ -216,7 +208,6 @@
                 </div>
 
                 <div class="col-sm-3 leftSide">
-
                     <img id="myImage" src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14141633_1111643665597304_5943056743569652872_n.jpg?_nc_cat=102&_nc_ht=scontent-waw1-1.xx&oh=80006dd38613c9be960d159c003190cd&oe=5D90763C" alt="Błąd obrazka!">
                     <hr>
                     <h4 class="textTitle">Dane kontaktowe</h4>
@@ -227,8 +218,6 @@
                     <p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/aleksander-cuch-161118180/"> aleksandercuch</a></p>
                     <hr>
                     <img id="anotherImage" src="https://cdn.pixabay.com/photo/2017/06/19/02/00/embroidery-2417899_960_720.png" alt="Błąd obrazka!">
-
-
                 </div>
             </div>
         </div>

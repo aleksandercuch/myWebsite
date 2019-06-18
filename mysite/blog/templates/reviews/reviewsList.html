@@ -77,16 +77,14 @@
                                     <a href="{{review.id}}/"><img src="{{review.url}}"></a>
                                 </div>
                                 <div class="col-sm-8">
-                                    <p>{{ review.text|safe|truncatewords:80 }} <a href="{{review.id}}/">(czytaj dalej)</a></p>
+                                    <p>{{ review.text|safe|truncatewords:80 }} <a href="{{review.id}}/">(czytaj całość)</a></p>
+
                                 </div>
+                                <hr>
                             </div>
-
-
                         </div>
-
-                        <hr>
                         {% endfor %}
-                        
+
                     </div>
                 </div>
                  <div class="col-sm-4">

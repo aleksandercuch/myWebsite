@@ -188,16 +188,15 @@ margin-top:15px;
 margin-left:15px;
 margin-right:15px;
 float:top;
-width: 90%;
-height: 90%;
 
+  height: 85%;
 }
 
 .review p {
     float: right;
 }
 
-.aboutPanel h1, h2, h3, h4, h5, img {
+.aboutPanel h4, h5 {
     margin-top:10px;
 
 }
