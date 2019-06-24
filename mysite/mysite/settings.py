@@ -42,8 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'djrichtextfield',
     'froala_editor',
+'djrichtextfield'
 ]
 
 MIDDLEWARE = [
