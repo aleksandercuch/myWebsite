@@ -4,10 +4,36 @@
     <list default="true" id="bdb57616-9cac-49d2-9d27-5887658c9cd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/bookSlide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/komornik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/myFoto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/recenzje.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/about/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/about/aboutMe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/postDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/postDetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/postList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/postList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/books/bookList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/books/bookList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/reviewImages/komornik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/reviewImages/komornik_HfJv3Qr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1558792727404.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1558792735020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1558792754181.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1558795373733.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1560864039575.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1560864161526.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1560867329807.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/Bez tytułu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/OstatniZwiastun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/diag.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/główny obrazek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/komornik_HfJv3Qr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/url.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/url_6t1jlmE.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,41 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/postList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/postDetails.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="132" column="36" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="52" />
+            <state relative-caret-position="153">
+              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -59,17 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="209" column="47" selection-start-line="209" selection-start-column="47" selection-end-line="209" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
+            <state relative-caret-position="204">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -77,22 +64,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+            <state relative-caret-position="-1213">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/static/images/background.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-737">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#small#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="113" selection-end-column="38" />
+            <state relative-caret-position="-187">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/login/loginTemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/logout/logoutTemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -100,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/books/bookList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="-312">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <element signature="e#5055#5061#0" expanded="true" />
               </folding>
@@ -147,29 +178,29 @@
         <option value="$PROJECT_DIR$/blog/templates/registration/password_reset_done.html" />
         <option value="$PROJECT_DIR$/blog/templates/registration/password_reset_email.html" />
         <option value="$PROJECT_DIR$/blog/templates/registration/password_reset_form.html" />
-        <option value="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" />
-        <option value="$PROJECT_DIR$/blog/templates/signup.html" />
         <option value="$PROJECT_DIR$/blog/forms.py" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" />
-        <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/templates/deletePost.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/blog/templates/books/bookList.html" />
-        <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" />
-        <option value="$PROJECT_DIR$/blog/templates/about/aboutMe.html" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/postDetails.html" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/postList.html" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/postDetails.html" />
+        <option value="$PROJECT_DIR$/blog/templates/about/aboutMe.html" />
+        <option value="$PROJECT_DIR$/blog/templates/books/bookList.html" />
+        <option value="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" />
+        <option value="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" />
+        <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" />
+        <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" />
+        <option value="$PROJECT_DIR$/blog/templates/signup.html" />
         <option value="$PROJECT_DIR$/blog/static/css/blog.css" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/postList.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-70" />
-    <option name="y" value="27" />
+    <option name="y" value="26" />
     <option name="width" value="1450" />
     <option name="height" value="915" />
   </component>
@@ -206,13 +237,6 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
@@ -286,11 +310,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cucha\Desktop\myWebsite\mysite\blog\static\images" />
       <recent name="C:\Users\cucha\Desktop\mySite\myWebsite\mysite\blog\static\images" />
       <recent name="C:\Users\cucha\Desktop\mySite\myWebsite\mysite\blog\templates\books" />
       <recent name="C:\Users\cucha\Desktop\mySite\myWebsite\mysite\blog\templates" />
       <recent name="C:\Users\cucha\Desktop\mySite\myWebsite\mysite\blog\templates\logout" />
-      <recent name="C:\Users\cucha\Desktop\mySite\myWebsite\mysite\blog\templates\login" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,9 +343,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-56" y="21" width="1160" height="732" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24124256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32502225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,9 +393,6 @@
     <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewDetails.html" />
     <entry file="file://$PROJECT_DIR$/blog/templates/contact/contact.html" />
     <entry file="file://$PROJECT_DIR$/blog/templates/pagination.html" />
-    <entry file="file://$PROJECT_DIR$/blog/static/images/recenzje.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/registration/password_reset_email.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -431,17 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#small#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -485,17 +495,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/registration/password_reset_subject.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/images/recenzje.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/images/bookSlide.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/images/komornik.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/images/myFoto.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/images/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/postDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -508,80 +557,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/login/loginTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html">
+    <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="113" selection-end-column="38" />
+        <state relative-caret-position="439">
+          <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-737">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#small#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1213">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/books/bookList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="-312">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="e#5055#5061#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html">
+    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="209" column="47" selection-start-line="209" selection-start-column="47" selection-end-line="209" selection-end-column="47" />
+        <state relative-caret-position="-357">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+    <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/images/background.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/postDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="132" column="36" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        <state relative-caret-position="-187">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/postList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
         </state>
       </provider>
     </entry>
