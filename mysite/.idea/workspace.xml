@@ -3,37 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bdb57616-9cac-49d2-9d27-5887658c9cd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/images/bookSlide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/images/komornik.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/images/myFoto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/images/recenzje.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/about/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/about/aboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/postDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/postDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/postList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/postList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/books/bookList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/books/bookList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/reviewImages/komornik.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/reviewImages/komornik_HfJv3Qr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1558792727404.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1558792735020.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1558792754181.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1558795373733.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1560864039575.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1560864161526.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/1560867329807.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/Bez tytułu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/OstatniZwiastun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/diag.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/główny obrazek.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/komornik_HfJv3Qr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/url.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/froala_editor/images/url_6t1jlmE.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/postList.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -55,8 +26,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="65" column="85" selection-start-line="65" selection-start-column="85" selection-end-line="65" selection-end-column="85" />
+              <folding>
+                <element signature="e#4944#4950#0" expanded="true" />
+                <element signature="e#4992#4998#0" expanded="true" />
+                <element signature="e#8248#8254#0" expanded="true" />
+                <element signature="e#8613#8619#0" expanded="true" />
+                <element signature="e#8642#8648#0" expanded="true" />
+                <element signature="e#8797#8803#0" expanded="true" />
+                <element signature="e#9643#9649#0" expanded="true" />
+                <element signature="e#10309#10315#0" expanded="true" />
+                <element signature="e#13801#13807#0" expanded="true" />
+                <element signature="e#15119#15125#0" expanded="true" />
+                <element signature="e#15463#15469#0" expanded="true" />
+                <element signature="e#15555#15561#0" expanded="true" />
+                <element signature="e#15573#15579#0" expanded="true" />
+                <element signature="e#15853#15859#0" expanded="true" />
+                <element signature="e#15905#15911#0" expanded="true" />
+                <element signature="e#16202#16208#0" expanded="true" />
+                <element signature="e#16532#16538#0" expanded="true" />
+                <element signature="e#16905#16911#0" expanded="true" />
+                <element signature="e#16960#16966#0" expanded="true" />
+                <element signature="e#16973#16979#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1213">
+            <state relative-caret-position="221">
               <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
             </state>
           </provider>
@@ -73,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-737">
+            <state relative-caret-position="221">
               <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#small#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -83,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+            <state relative-caret-position="3502">
+              <caret line="206" column="1" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -95,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
+            <state relative-caret-position="221">
               <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
@@ -122,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
+            <state relative-caret-position="204">
               <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
@@ -131,10 +124,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/books/bookList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="321">
+              <caret line="85" column="152" selection-start-line="85" selection-start-column="152" selection-end-line="85" selection-end-column="152" />
               <folding>
-                <element signature="e#5055#5061#0" expanded="true" />
+                <element signature="e#3864#3870#0" expanded="true" />
+                <element signature="e#3926#3932#0" expanded="true" />
+                <element signature="e#3939#3945#0" expanded="true" />
+                <element signature="e#3961#3967#0" expanded="true" />
+                <element signature="e#4048#4054#0" expanded="true" />
+                <element signature="e#4067#4073#0" expanded="true" />
+                <element signature="e#4116#4122#0" expanded="true" />
+                <element signature="e#4185#4191#0" expanded="true" />
+                <element signature="e#4247#4253#0" expanded="true" />
+                <element signature="e#4354#4360#0" expanded="true" />
+                <element signature="e#4388#4394#0" expanded="true" />
+                <element signature="e#4390#4396#0" expanded="true" />
+                <element signature="e#4471#4477#0" expanded="true" />
+                <element signature="e#4555#4561#0" expanded="true" />
+                <element signature="e#4576#4582#0" expanded="true" />
+                <element signature="e#4691#4697#0" expanded="true" />
+                <element signature="e#4760#4766#0" expanded="true" />
+                <element signature="e#4878#4884#0" expanded="true" />
+                <element signature="e#4916#4922#0" expanded="true" />
+                <element signature="e#5015#5021#0" expanded="true" />
+                <element signature="e#5051#5057#0" expanded="true" />
+                <element signature="e#5128#5134#0" expanded="true" />
+                <element signature="e#5155#5161#0" expanded="true" />
+                <element signature="e#5296#5302#0" expanded="true" />
+                <element signature="e#5385#5391#0" expanded="true" />
+                <element signature="e#5387#5393#0" expanded="true" />
+                <element signature="e#5483#5489#0" expanded="true" />
+                <element signature="e#5508#5514#0" expanded="true" />
+                <element signature="e#5533#5539#0" expanded="true" />
+                <element signature="e#5544#5550#0" expanded="true" />
+                <element signature="e#5352#5358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,8 +209,6 @@
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/postDetails.html" />
-        <option value="$PROJECT_DIR$/blog/templates/about/aboutMe.html" />
-        <option value="$PROJECT_DIR$/blog/templates/books/bookList.html" />
         <option value="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" />
         <option value="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" />
         <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" />
@@ -195,12 +216,14 @@
         <option value="$PROJECT_DIR$/blog/templates/signup.html" />
         <option value="$PROJECT_DIR$/blog/static/css/blog.css" />
         <option value="$PROJECT_DIR$/blog/templates/blog/postList.html" />
+        <option value="$PROJECT_DIR$/blog/templates/about/aboutMe.html" />
+        <option value="$PROJECT_DIR$/blog/templates/books/bookList.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-70" />
-    <option name="y" value="26" />
+    <option name="y" value="25" />
     <option name="width" value="1450" />
     <option name="height" value="915" />
   </component>
@@ -343,9 +366,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-56" y="21" width="1160" height="732" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32502225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24124256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -519,21 +543,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/images/recenzje.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/images/bookSlide.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/images/komornik.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/images/myFoto.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/images/background.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/images/recenzje.png" />
+    <entry file="file://$PROJECT_DIR$/blog/static/images/bookSlide.png" />
+    <entry file="file://$PROJECT_DIR$/blog/static/images/komornik.jpg" />
+    <entry file="file://$PROJECT_DIR$/blog/static/images/myFoto.png" />
+    <entry file="file://$PROJECT_DIR$/blog/static/images/background.jpg" />
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/postDetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -541,17 +555,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html">
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/postList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/logout/logoutTemplate.html">
+    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#small#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -562,59 +594,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
+    <entry file="file://$PROJECT_DIR$/blog/templates/logout/logoutTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#small#0;n#p#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1213">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/books/bookList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="e#5055#5061#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
+        <state relative-caret-position="204">
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html">
+    <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="65" column="85" selection-start-line="65" selection-start-column="85" selection-end-line="65" selection-end-column="85" />
+          <folding>
+            <element signature="e#4944#4950#0" expanded="true" />
+            <element signature="e#4992#4998#0" expanded="true" />
+            <element signature="e#8248#8254#0" expanded="true" />
+            <element signature="e#8613#8619#0" expanded="true" />
+            <element signature="e#8642#8648#0" expanded="true" />
+            <element signature="e#8797#8803#0" expanded="true" />
+            <element signature="e#9643#9649#0" expanded="true" />
+            <element signature="e#10309#10315#0" expanded="true" />
+            <element signature="e#13801#13807#0" expanded="true" />
+            <element signature="e#15119#15125#0" expanded="true" />
+            <element signature="e#15463#15469#0" expanded="true" />
+            <element signature="e#15555#15561#0" expanded="true" />
+            <element signature="e#15573#15579#0" expanded="true" />
+            <element signature="e#15853#15859#0" expanded="true" />
+            <element signature="e#15905#15911#0" expanded="true" />
+            <element signature="e#16202#16208#0" expanded="true" />
+            <element signature="e#16532#16538#0" expanded="true" />
+            <element signature="e#16905#16911#0" expanded="true" />
+            <element signature="e#16960#16966#0" expanded="true" />
+            <element signature="e#16973#16979#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/postList.html">
+    <entry file="file://$PROJECT_DIR$/blog/templates/books/bookList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        <state relative-caret-position="321">
+          <caret line="85" column="152" selection-start-line="85" selection-start-column="152" selection-end-line="85" selection-end-column="152" />
+          <folding>
+            <element signature="e#3864#3870#0" expanded="true" />
+            <element signature="e#3926#3932#0" expanded="true" />
+            <element signature="e#3939#3945#0" expanded="true" />
+            <element signature="e#3961#3967#0" expanded="true" />
+            <element signature="e#4048#4054#0" expanded="true" />
+            <element signature="e#4067#4073#0" expanded="true" />
+            <element signature="e#4116#4122#0" expanded="true" />
+            <element signature="e#4185#4191#0" expanded="true" />
+            <element signature="e#4247#4253#0" expanded="true" />
+            <element signature="e#4354#4360#0" expanded="true" />
+            <element signature="e#4388#4394#0" expanded="true" />
+            <element signature="e#4390#4396#0" expanded="true" />
+            <element signature="e#4471#4477#0" expanded="true" />
+            <element signature="e#4555#4561#0" expanded="true" />
+            <element signature="e#4576#4582#0" expanded="true" />
+            <element signature="e#4691#4697#0" expanded="true" />
+            <element signature="e#4760#4766#0" expanded="true" />
+            <element signature="e#4878#4884#0" expanded="true" />
+            <element signature="e#4916#4922#0" expanded="true" />
+            <element signature="e#5015#5021#0" expanded="true" />
+            <element signature="e#5051#5057#0" expanded="true" />
+            <element signature="e#5128#5134#0" expanded="true" />
+            <element signature="e#5155#5161#0" expanded="true" />
+            <element signature="e#5296#5302#0" expanded="true" />
+            <element signature="e#5385#5391#0" expanded="true" />
+            <element signature="e#5387#5393#0" expanded="true" />
+            <element signature="e#5483#5489#0" expanded="true" />
+            <element signature="e#5508#5514#0" expanded="true" />
+            <element signature="e#5533#5539#0" expanded="true" />
+            <element signature="e#5544#5550#0" expanded="true" />
+            <element signature="e#5352#5358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3502">
+          <caret line="206" column="1" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
         </state>
       </provider>
     </entry>
