@@ -26,7 +26,7 @@ SECRET_KEY = 'x%!q@b9tyl%^z0*d#8!s!1^x36857_tvpxfycmc(!9u5eeu%9!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['embers-eyed.herokuapp.com']
+ALLOWED_HOSTS = ['embers-eyed.herokuapp.com', 'localhost']
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
