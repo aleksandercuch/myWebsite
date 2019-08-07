@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdb57616-9cac-49d2-9d27-5887658c9cd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/about/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/about/aboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/postDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/postDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/postList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/postList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/books/bookList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/books/bookList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +20,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/blog/postDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            <state relative-caret-position="255">
+              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/books/bookList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="27" column="102" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/login/loginTemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/acc_active_email.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="102" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="102" selection-start-line="26" selection-start-column="102" selection-end-line="26" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/deletePost.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+              <folding>
+                <element signature="e#4925#4931#0" expanded="true" />
+                <element signature="e#4965#4971#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,22 +150,22 @@
         <option value="$PROJECT_DIR$/blog/templates/deletePost.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/postDetails.html" />
-        <option value="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" />
-        <option value="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" />
-        <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" />
-        <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" />
-        <option value="$PROJECT_DIR$/blog/templates/signup.html" />
-        <option value="$PROJECT_DIR$/blog/templates/books/bookList.html" />
-        <option value="$PROJECT_DIR$/blog/templates/about/aboutMe.html" />
         <option value="$PROJECT_DIR$/blog/static/css/blog.css" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/postList.html" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/postList.html" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/postDetails.html" />
+        <option value="$PROJECT_DIR$/blog/templates/about/aboutMe.html" />
+        <option value="$PROJECT_DIR$/blog/templates/books/bookList.html" />
+        <option value="$PROJECT_DIR$/blog/templates/books/chapterDetails.html" />
+        <option value="$PROJECT_DIR$/blog/templates/login/loginTemplate.html" />
+        <option value="$PROJECT_DIR$/blog/templates/signup.html" />
+        <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" />
+        <option value="$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-70" />
     <option name="y" value="25" />
     <option name="width" value="1450" />
@@ -101,6 +185,52 @@
             <path>
               <item name="myWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="myWebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="reviews" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,7 +278,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17713153" />
@@ -190,13 +320,11 @@
     <entry file="file://$PROJECT_DIR$/blog/templates/registration/password_reset_complete.html" />
     <entry file="file://$PROJECT_DIR$/blog/templates/registration/password_reset_confirm.html" />
     <entry file="file://$PROJECT_DIR$/blog/templates/registration/password_reset_form.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/acc_active_email.html" />
     <entry file="file://$PROJECT_DIR$/blog/apps.py" />
     <entry file="file://$PROJECT_DIR$/blog/tokens.py" />
     <entry file="file://$PROJECT_DIR$/blog/forms.py" />
     <entry file="file://$PROJECT_DIR$/blog/urls.py" />
     <entry file="file://$PROJECT_DIR$/blog/models.py" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/deletePost.html" />
     <entry file="file://$PROJECT_DIR$/blog/views.py" />
     <entry file="file://$PROJECT_DIR$/blog/templates/registration/password_reset_subject.txt" />
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
@@ -214,17 +342,7 @@
     <entry file="file://$PROJECT_DIR$/blog/static/images/komornik.jpg" />
     <entry file="file://$PROJECT_DIR$/blog/static/images/myFoto.png" />
     <entry file="file://$PROJECT_DIR$/blog/static/images/background.jpg" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/signup.html" />
     <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/login/loginTemplate.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/logout/logoutTemplate.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/books/bookList.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/postDetails.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/postList.html" />
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
@@ -242,6 +360,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/logout/logoutTemplate.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/postList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/postDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/about/aboutMe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+          <folding>
+            <element signature="e#4925#4931#0" expanded="true" />
+            <element signature="e#4965#4971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/books/chapterDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/deletePost.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/acc_active_email.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/login/loginTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/books/bookList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="102" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="102" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/reviews/reviewsDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="102" selection-start-line="26" selection-start-column="102" selection-end-line="26" selection-end-column="102" />
         </state>
       </provider>
     </entry>
